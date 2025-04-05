@@ -19,5 +19,5 @@ public class GameManager : MonoBehaviour
     }
     #endregion
     
-    public int score;
+    public int score = 0;
 }

@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     private float friction = 15f;
     private Vector3 velocity = Vector3.zero;
     private Vector3 inputDirection = Vector3.zero;
-    [SerializeField] private int health = 100;
+    public int health = 100;
     [SerializeField] private GameObject bulletPrefab;
 
     void Update()
@@ -94,14 +94,19 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void Die()
+    {
+        UIManager.instance.Lose();
+    }
+    
     public void TakeDamage(int dmg)
     {
         health -= dmg;
         Debug.Log("Player health: " + health);
         if (health <= 0)
         {
-            Debug.Log("Game Over.");
-            Destroy(gameObject);
+            Die();
+            Destroy(this.gameObject);
         }
     }
 

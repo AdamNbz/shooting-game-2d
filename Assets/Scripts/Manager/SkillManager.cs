@@ -25,12 +25,15 @@ public class SkillManager : MonoBehaviour
     private void Start()
     {
         AddSkill(new MultishotSkill());
+        AddSkill(new RotatingBulletSkill());
     }
     
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Q)) ActivateSkill("Multishot");
+        if (Input.GetKeyDown(KeyCode.E)) ActivateSkill("RotatingBullet");
     }
+    
     public void AddSkill(BaseSkill skill)
     {
         if (!skills.ContainsKey(skill.skillName))

@@ -61,10 +61,12 @@ public class EnemySpawner : MonoBehaviour
 
     public void OnEnemyKilled()
     {
+        GameManager.instance.score += 10;
         enemyCount--;
     }
     public void OnTurretDestroyed()
     {
+        GameManager.instance.score += 20;
         turretCount--;
     }
 }
