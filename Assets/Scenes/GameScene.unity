@@ -426,10 +426,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 835022695236799596, guid: a4a39581c59f34a048c2c8c276810ea6, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2347025560008172021, guid: a4a39581c59f34a048c2c8c276810ea6, type: 3}
       propertyPath: m_Size.y
       value: 0.98034585
@@ -437,22 +433,6 @@ PrefabInstance:
     - target: {fileID: 2347025560008172021, guid: a4a39581c59f34a048c2c8c276810ea6, type: 3}
       propertyPath: m_Offset.y
       value: -0.00006598234
-      objectReference: {fileID: 0}
-    - target: {fileID: 2347025560008172021, guid: a4a39581c59f34a048c2c8c276810ea6, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4168678446621383542, guid: a4a39581c59f34a048c2c8c276810ea6, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5159376867056598139, guid: a4a39581c59f34a048c2c8c276810ea6, type: 3}
-      propertyPath: m_Color.g
-      value: 0.821918
-      objectReference: {fileID: 0}
-    - target: {fileID: 5159376867056598139, guid: a4a39581c59f34a048c2c8c276810ea6, type: 3}
-      propertyPath: m_Color.r
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8024077470500857019, guid: a4a39581c59f34a048c2c8c276810ea6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -645,7 +625,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!1 &1951175572
 GameObject:
@@ -976,7 +956,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0.000015146778, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1006,8 +986,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 380.04, y: -135.82}
-  m_SizeDelta: {x: 760.08, y: 271.63}
+  m_AnchoredPosition: {x: 265.21, y: -135.82}
+  m_SizeDelta: {x: 530.41, y: 271.63}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &9103531365166425109
 PrefabInstance:

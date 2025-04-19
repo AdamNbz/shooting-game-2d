@@ -527,7 +527,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 5504952343268369700, guid: f2f20969790f349f2bb48bd73dc69d8b, type: 3}
   fireInterval: 1.5
-  health: 50
 --- !u!1 &8502270489321924318
 GameObject:
   m_ObjectHideFlags: 0
@@ -620,6 +619,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4760913766220045725, guid: 6a4f19093ae77489d84c881bb4baae69, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7959200398655100034, guid: 6a4f19093ae77489d84c881bb4baae69, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.94
